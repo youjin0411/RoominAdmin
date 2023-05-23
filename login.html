@@ -5,216 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="motion.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <style>
-        #test {
-            margin-top: 140px;
-            position: relative;
-            /* 파폭 */
-            -moz-animation: bounce 2s infinite linear;
-            /* 크롬 */
-            -webkit-animation: bounce 2s infinite linear;
-            -o-animation: bounce 2s infinite linear;
-            animation: bounce 2s infinite linear;
-        }
-        #forms{
-            position: absolute;
-            width: 508px;
-            height: 180px;
-            left: 1186px;
-            top: 403px;
-            display: grid;
-            grid-template-rows: 80px 80px;
-        }
-        .input1{
-            color: #A4A4A4;
-            font-size: 20px;
-            padding: 41px;
-            font-family: 'GmarketSansMedium';
-            box-sizing: border-box;
-            position: absolute;
-            width: 508px;
-            height: 80px;
-            background-color: #FBFBFB;
-            border: 1px solid #E8E8E8;
-            border-radius: 16px;
-        }
-        .input2{
-            color: #A4A4A4;
-            font-size: 20px;
-            padding: 41px;
-            font-family:'GmarketSansMedium';
-            margin-top: 100px;
-            box-sizing: border-box;
-            position: absolute;
-            width: 508px;
-            height: 80px;
-            background-color: #FBFBFB;
-            border: 1px solid #E8E8E8;
-            border-radius: 16px;
-        }
-        @font-face {
-            font-family: 'GmarketSansMedium';
-            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
-            font-weight: normal;
-            font-style: normal;
-        }
-
-
-        @-webkit-keyframes bounce {
-            0% {
-                top: 0;
-            }
-
-            25% {
-                top: -20px;
-            }
-
-            50% {
-                top: 0;
-            }
-
-            75% {
-                top: -20px;
-            }
-
-            100% {
-                top: 0;
-            }
-        }
-
-        @-moz-keyframes bounce {
-            0% {
-                top: 0;
-            }
-
-            25% {
-                top: -20px;
-            }
-
-            50% {
-                top: 0;
-            }
-
-            75% {
-                top: -20px;
-            }
-
-            100% {
-                top: 0;
-            }
-        }
-
-        @-o-keyframes bounce {
-            0% {
-                top: 0;
-            }
-
-            25% {
-                top: -20px;
-            }
-
-            50% {
-                top: 0;
-            }
-
-            75% {
-                top: -20px;
-            }
-
-            100% {
-                top: 0;
-            }
-        }
-
-        @-ms-keyframes bounce {
-            0% {
-                top: 0;
-            }
-
-            25% {
-                top: -20px;
-            }
-
-            50% {
-                top: 0;
-            }
-
-            75% {
-                top: -20px;
-            }
-
-            100% {
-                top: 0;
-            }
-        }
-
-        @keyframes bounce {
-            0% {
-                top: 0;
-            }
-
-            25% {
-                top: -20px;
-            }
-
-            50% {
-                top: 0;
-            }
-
-            75% {
-                top: -20px;
-            }
-
-            100% {
-                top: 0;
-            }
-        }
-    </style>
     <div>
-        <div style="
-            background-image: url('./pink.png'); 
-            width: 778px; 
-            height: 778px;
-            background-size: cover;
-            position: absolute;
-            width: 778px;
-            height: 778px;
-            left: -16px;
-            top: 24px;"></div>
-        <div style=
-            "background-image: url(./blue.png); 
-            background-size: cover;
-            position: absolute;
-            width: 862px;
-            height: 778px;
-            left: 250px;
-            top: 326px;"></div>
-        <div 
-            id="test"
-            style="background-image: url(./test.png); 
-            position: absolute;
-            width: 700px;
-            height: 700px;
-            left: 160px;
-            top: 600px;
-            background-size: cover;">
-        </div>
+        <div id="pink"></div>
+        <div id="blue"></div>
+        <div id="test" class="mainimg"></div>
     </div>
-    <div
-    style="
-        background-image: url('./roomin.png');
-        position: absolute;
-        width: 210.71px;
-        height: 40px;
-        left: 1335px;
-        top: 233px;
-        background-size: cover;">
+    <div id="logo">
     </div>
     <form id="forms">
         <input type="text" placeholder="호텔 아이디" class="input1">
         <input type="password" placeholder="비밀번호" class="input2">
     </form>
+    <div id="btnsignup">
+        <div id="pass" class="sign">비밀번호 찾기</div>
+        <div id="line" class="sign"> | </div>
+        <div id="signup" class="sign">회원가입</div>
+    </div>
+    <div id="mark"></div>
+    <button id="loginbtn">로그인</button>
 </body>
 </html>
