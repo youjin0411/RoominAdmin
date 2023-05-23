@@ -10,15 +10,49 @@
     <link rel="stylesheet" href="step1.css">
 </head>
 <body>
+    <button id="minilogin">로그인</button>
     <div>
         <div id="pink"></div>
         <div id="blue"></div>
         <div id="test" class="mainimg"></div>
     </div>
-    <div id="text">호텔 주소를 입력해주세요!</div>
-    <div>
-        <button id="loginbtn">주소검색</button>
-        <input type="text" id="detailaddress" placeholder="상세주소">
+    <div id="linestep">
+        <div id="circle1" class="circle">
+            1
+        </div>
+        <div id="text1">호텔정보</div>
+        <div class="circle" id="circle2">
+            2
+        </div>
+        <div id="text2">사업자등록</div>
+        <div class="circle" id="circle3">
+            3
+        </div>
+        <div id="text3">계정생성</div>
     </div>
+    <div id="text">호텔 주소를 입력해주세요!</div>
+
+    <!-- 모달창 띄우기 -->
+    <button id="search">주소검색</button>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div id="madaltext">호텔 주소를 입력해주세요!</div>
+          <input type="text" id="exaddress" placeholder="예&#41; 신라호텔, 중구 동호로 249">
+          <div id="grid-box">
+            <div class="box1">도로명</div>
+            <div class="box2">예&#41; 무학로 33, 도산대로 8길 23</div>
+            <div class="box1">동주소</div>
+            <div class="box2">예&#41; 연희동 42-18</div>
+            <div class="box1">건물명</div>
+            <div class="box2">예&#41; 역삼동 푸르지오</div>
+          </div>
+        </div>
+      </div>
+
+    <input type="text" id="detailaddress" placeholder="상세주소">
+    <button id="nextbtn">다시</button>
+    <div id="mark"></div>
+    <script src="step1.js"></script>
 </body>
 </html>
