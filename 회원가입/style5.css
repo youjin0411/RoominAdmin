@@ -1,0 +1,37 @@
+#circle2 {
+    background-color: #FF617D;
+    color: #FBFBFB;
+    border: none;
+}
+
+#circle3 {
+    background-color: #FF617D;
+    color: #FBFBFB;
+    border: none;
+}
+
+#text12 {
+    position: absolute;
+    width: 480px;
+    height: 36px;
+    left: 1196px;
+    top: 415px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #494949;
+}
+
+#forms2 {
+    position: absolute;
+    width: 508px;
+    height: 180px;
+    left: 1186px;
+    top: 488px;
+    display: grid;
+    grid-template-rows: 80px 80px;
+}

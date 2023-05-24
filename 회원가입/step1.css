@@ -60,12 +60,12 @@
     border: none;
 }
 
-#detailaddress:focus {
+.detailaddress:focus {
     border: none;
     outline: none;
 }
 
-#detailaddress {
+.detailaddress {
     text-indent: 40px;
     position: absolute;
     width: 488px;
@@ -77,6 +77,8 @@
     font-size: 20px;
     color: #A4A4A4;
     border: none;
+    display: flex;
+    align-items: center;
 }
 
 #nextbtn {
@@ -86,6 +88,19 @@
     left: 1196px;
     top: 731px;
     background-color: #A4A4A4;
+    border-radius: 16px;
+    font-size: 20px;
+    color: #FBFBFB;
+    border: none;
+}
+
+#nextbtn2 {
+    position: absolute;
+    width: 488px;
+    height: 80px;
+    left: 1196px;
+    top: 731px;
+    background-color: #494949;
     border-radius: 16px;
     font-size: 20px;
     color: #FBFBFB;
@@ -196,6 +211,23 @@
 }
 
 #searchadress {
+    color: #FBFBFB;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 23px 36px;
+    gap: 10px;
+    position: absolute;
+    width: 111px;
+    height: 78px;
+    left: 1213px;
+    top: 332px;
+    /* Gray7 */
+    background: #494949;
+    border-radius: 16px;
+    border: solid 1px #494949;
+}
+
+#searchadress2 {
     color: #FBFBFB;
     flex-direction: row;
     align-items: flex-start;

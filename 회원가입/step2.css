@@ -1,0 +1,21 @@
+#again {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    width: 138px;
+    height: 56px;
+    left: 1546px;
+    top: 403px;
+    background: rgba(83, 98, 202, 0.1);
+    border-radius: 16px;
+    border: none;
+    text-align: center;
+    color: #5362CA;
+}
+
+#detail1 {
+    top: 492px;
+}
+
+#detail2 {}

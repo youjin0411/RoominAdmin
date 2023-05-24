@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../motion.css">
     <link rel="stylesheet" href="step1.css">
+    <link rel="stylesheet" href="step2.css">
 </head>
 
 <body>
@@ -35,10 +36,10 @@
         </div>
         <div id="text3">계정생성</div>
     </div>
-    <div id="text">호텔 주소를 입력해주세요!</div>
+    <div id="text" style="text-align: left;">입력하신 호텔 주소가 맞다면<br> 아래 다음을 눌러주세요!</div>
 
     <!-- 모달창 띄우기 -->
-    <button id="search">주소검색</button>
+    <button id="again">다시 주소 찾기</button>
     <div id="myModal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
@@ -55,10 +56,11 @@
             </div>
         </div>
     </div>
-    <input type="text" class="detailaddress" placeholder="상세주소">
-    <button id="nextbtn">다음</button>
+    <div class="detailaddress" id="detail1">ㄹㅇ</div>
+    <div class="detailaddress" id="detail2">ㄹㅇ</div>
+    <button id="nextbtn2" style="top: 725px" class="next">다음</button>
     <div id="mark"></div>
-    <script src="step1.js"></script>
+    <script src="step2.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=api_key&callback=initAutocomplete&libraries=places&v=weekly" defer></script>
 </body>
 
