@@ -31,5 +31,5 @@ detail2.innerHTML = localStorage.getItem("address");
 
 let nextbtn = document.getElementById("nextbtn2");
 nextbtn.addEventListener("click", () => {
-    window.location.href = "/회원가입/step3.html";
+    window.location.href = "/회원가입/html/step3.html";
 });

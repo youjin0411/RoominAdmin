@@ -29,7 +29,7 @@ function initAutocomplete() {
         // alert(formatted_address + name);
         localStorage.setItem("address", formatted_address);
         localStorage.setItem("name", name);
-        window.location.href = "/회원가입/step2.html";
+        window.location.href = "/회원가입/html/step2.html";
     };
 
     // 버튼이 로드될 때까지 대기한 다음 클릭 이벤트를 추가합니다.

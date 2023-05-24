@@ -17,7 +17,7 @@ body {
 }
 
 #linestep {
-    background-image: url('./signline.png');
+    background-image: url('./이미지/signline.png');
     position: absolute;
     width: 425px;
     height: 3px;
@@ -83,7 +83,7 @@ body {
 }
 
 #pink {
-    background-image: url('./pink.png');
+    background-image: url('./이미지/pink.png');
     width: 778px;
     height: 778px;
     background-size: cover;
@@ -95,7 +95,7 @@ body {
 }
 
 #blue {
-    background-image: url(./blue.png);
+    background-image: url('./이미지/blue.png');
     background-size: cover;
     position: absolute;
     width: 862px;
@@ -105,7 +105,7 @@ body {
 }
 
 .mainimg {
-    background-image: url(./test.png);
+    background-image: url('./이미지/test.png');
     position: absolute;
     width: 700px;
     height: 700px;
@@ -115,7 +115,7 @@ body {
 }
 
 #logo {
-    background-image: url('./roomin.png');
+    background-image: url('./이미지/roomin.png');
     position: absolute;
     width: 210.71px;
     height: 40px;
@@ -169,7 +169,7 @@ body {
     height: 48px;
     left: 1782px;
     top: 958px;
-    background-image: url('./mark.png');
+    background-image: url('./이미지/mark.png');
     background-size: cover;
 }
 

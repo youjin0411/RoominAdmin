@@ -8,7 +8,7 @@ let nextbtn = document.getElementById("nextbtn2");
 nextbtn.addEventListener("click", () => {
     const detail2 = document.getElementById("detail12");
     if (detail2.value.length === 10) {
-        window.location.href = "/회원가입/step4.html";
+        window.location.href = "/회원가입/html/step4.html";
     } else {
         alert("10글자로 입력하세요.");
     }
