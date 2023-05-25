@@ -1,0 +1,178 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'GmarketSansMedium';
+}
+
+body{
+    height: 100%;
+    background-color: #FBFBFB;
+}
+
+#logo{
+    position: absolute;
+    width: 167.14px;
+    height: 31px;
+    left: 50px;
+    top: 50px;
+    background-image: url('../이미지/roomin.png');
+    background-size: cover;
+}
+#nav{
+    position: absolute;
+    width: 280px;
+    height: 1070px;
+    left: 0px;
+    top: 0px;
+
+    /* g1 */
+
+    background: #FBFBFB;
+    border: solid 1px #E8E8E8;
+}
+#nav-con{
+    position: absolute;
+    left: 20px;
+    top: 162px;
+}
+.box{
+    width: 220px;
+    height: 72px;
+    font-size: 16px;
+    background: #FBFBFB;
+    border-radius: 16px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 20px;
+}
+
+#nav1{
+    background-color: #FBECEE;
+}
+#nav3{
+    margin-bottom: 520px;
+}
+
+#icon1{
+    width: 22px;
+    height: 22px;
+    background-image: url('../이미지/icon1.png');
+    background-size: cover;
+}
+#icon2{
+    width: 22px;
+    height: 22px;
+    background-image: url('../이미지/icon2.png');
+    background-size: cover;
+}
+#icon3{
+    width: 22px;
+    height: 22px;
+    background-image: url('../이미지/icon3.png');
+    background-size: cover;
+}
+#icon4{
+    width: 22px;
+    height: 22px;
+    background-image: url('../이미지/logout.png');
+    background-size: cover;
+}
+#icon5{
+    width: 22px;
+    height: 22px;
+    background-image: url('../이미지/setting.png');
+    background-size: cover;
+}
+.img{
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+.gridgroup{
+    position: absolute;
+    width: 335px;
+    height: 48px;
+    left: 340px;
+    top: 40px;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 75px 110px 110px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat{
+    background-color: #F4F4F4;
+    border-radius: 16px;
+    padding: 12px 12px 12px 12px;
+    color: #D1D1D1;
+}
+
+#hotelname{
+    position: absolute;
+    width: 223px;
+    height: 18px;
+    left: 1581px;
+    top: 56px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    /* Gray7 */
+    
+    color: #494949;
+    
+}
+
+
+#hotelimg{
+    background-size: cover;
+    position: absolute;
+    width: 68px;
+    height: 51px;
+    left: 1809px;
+    top: 39px;
+    background-image: url('../이미지/back.png');
+}
+
+#g1{
+    position: absolute;
+    width: 937px;
+    height: 878px;
+    left: 330px;
+    top: 119px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 24px;
+}
+
+#g2{
+    position: absolute;
+    width: 564px;
+    height: 878px;
+    left: 1306px;
+    top: 118px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 24px;
+}
+
+#first{
+    padding: 60px 20px 20px 60px;
+    display: grid;
+    grid-template-columns: 123px 400px 60px;
+}

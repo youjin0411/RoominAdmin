@@ -2,6 +2,17 @@
  * Always set the map height explicitly to define the size of the div element
  * that contains the map. 
  */
+ @font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'GmarketSansMedium';
+}
+
 
 #map {
     height: 50%;
