@@ -27,28 +27,5 @@
     </div>
     <div id="mark"></div>
     <button id="loginbtn">로그인</button>
-    <script>
-        document.getElementById('loginbtn').addEventListener('click', function() {
-          var username = document.getElementById('inp1').value;
-          var password = document.getElementById('inp2').value;
-    
-          var xhr = new XMLHttpRequest();
-          xhr.open('POST', 'http://localhost:3333/login', true);
-          xhr.setRequestHeader('Content-Type', 'application/json');
-    
-          xhr.onreadystatechange = function() {
-            if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
-              var response = JSON.parse(xhr.responseText);
-              alert(response.message);
-            } else if (xhr.readyState === XMLHttpRequest.DONE && xhr.status !== 200) {
-              var response = JSON.parse(xhr.responseText);
-              alert(response.error);
-            }
-          };
-    
-          var data = JSON.stringify({ username: username, password: password });
-          xhr.send(data);
-        });
-      </script>
 </body>
 </html>
