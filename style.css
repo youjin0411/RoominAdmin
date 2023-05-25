@@ -110,7 +110,7 @@ body {
     width: 700px;
     height: 700px;
     left: 160px;
-    top: 600px;
+    top: 184px;
     background-size: cover;
 }
 
@@ -132,6 +132,14 @@ body {
     top: 403px;
     display: grid;
     grid-template-rows: 80px 80px;
+}
+#inp1{
+    border: none;
+    outline: none;
+}
+#inp2{
+    border: none;
+    outline: none;
 }
 
 .input1 {
@@ -195,6 +203,9 @@ body {
     text-align: center;
     color: #777777;
 }
+#pass:hover {
+    cursor: pointer;
+}
 
 #line {
     text-align: center;
@@ -205,6 +216,9 @@ body {
     font-size: 16px;
     text-align: center;
     color: #494949;
+}
+#signup:hover{
+    cursor: pointer;
 }
 
 #loginbtn {
