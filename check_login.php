@@ -4,8 +4,7 @@ create table hotellogin(
     -> name varchar(20),
     -> password varchar(10));
  -->
-
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
    <meta charset="utf-8">
@@ -24,7 +23,7 @@ create table hotellogin(
       $username = $_POST['id'];
       $userpass = $_POST['pw'];
       
-      $q = "SELECT * FROM hoteltable WHERE name = '$username' AND password = '$userpass'";
+      $q = "SELECT * FROM hotellogin WHERE name = '$username' AND password = '$userpass'";
       $result = $mysqli->query($q);
       $row = $result->fetch_array(MYSQLI_ASSOC);
       
