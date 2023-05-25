@@ -15,6 +15,15 @@
     color: #494949;
 }
 
+#successimg{
+    position: absolute;
+    width: 960px;
+    height: 1080px;
+    left: -2px;
+    top: -4px;
+    background-image: url('../../이미지/signsucces.png');
+    background-size: cover;
+}
 #welcome {
     position: absolute;
     width: 256px;
