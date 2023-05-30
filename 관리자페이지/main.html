@@ -36,7 +36,6 @@
             </div>
         </div>
     </div>
-
     <div class="gridgroup">
         <div class="chat">전체</div>
         <div class="chat">승인대기</div>
@@ -68,7 +67,7 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td>2023.05.23 11:46:12</td><td>Lee ruda</td><td>2000.01.01</td><th>M12345678</th><th>승인대기</th>
+                    <td>2023.05.23 11:46:12</td><td>Lee ruda</td><td>2000.01.01</td><td>M12345678</td><td>승인대기</td>
                   </tr>
                 </tbody>
               </table>
@@ -79,7 +78,7 @@
             <div id="first">
                 <div id="mt">여권등록요청</div>
             </div>
-            <table>
+            <table id="table2">
                 <thead>
                   <tr>
                     <th>성명</th><th>여권번호</th><th>여권요청</th>
@@ -87,12 +86,30 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td>김땡땡</td><td>M12345678</td><td><button>승인</button><button>거절  </button></td>
+                    <td>김땡땡</td><td>M12345678</td><td><div id="btng"><button style="background-color: #34C759;">승인</button><button style="background-color: #FF3B30;">거절</button></div></td>
                   </tr>
                 </tbody>
               </table>
         </div>
     </div>
+    <hr id="selecline"/>
+
+        <div id="reservation">예약 현황</div>
+        <select id="select2">
+          <option value="">최신순</option>
+          <option value="">오래된 순</option>
+          <option value="">이름순</option>
+        </select>
+
+        <div id="reservation2">객실 현황</div>
+        <select id="select">
+          <option value="">최신순</option>
+          <option value="">오래된 순</option>
+          <option value="">이름순</option>
+        </select>
+        <div>
+          <div>697</div><div>/806</div>
+        </div>
 </body>
 
 </html>

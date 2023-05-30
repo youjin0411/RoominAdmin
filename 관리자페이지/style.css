@@ -34,6 +34,7 @@ body{
 
     background: #FBFBFB;
     border: solid 1px #E8E8E8;
+    position: fixed;
 }
 #nav-con{
     position: absolute;
@@ -94,6 +95,10 @@ body{
     margin-right: 15px;
 }
 
+#group{
+    text-align: center;
+}
+
 .gridgroup{
     position: absolute;
     width: 335px;
@@ -122,6 +127,7 @@ body{
 #mt{
     font-size: 24px;
     font-weight: bold;
+    color: #494949;
 }
 
 #hotelname{
@@ -144,7 +150,6 @@ body{
     color: #494949;
     
 }
-
 
 #hotelimg{
     background-size: cover;
@@ -223,6 +228,28 @@ img {
     font-size: 16px;
   }
 
+  #select2{
+    background-color: #FBFBFB;
+    border: none;
+    border-radius: 0;
+    position: absolute;
+    width: 76px;
+    height: 26px;
+    left: 1267px;
+    top: 1132px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #494949;
+  }
+
+  select:focus {
+    outline: none;
+  }
+  
+
   table {
     margin: 0 auto;
     width: 95%;
@@ -252,3 +279,72 @@ img {
     border-radius: 16px;
     color: #FBFBFB;
   }
+
+  #table2{
+    margin-top: 33px;
+  }
+
+#btng{
+    position: absolute;
+    width: 166px;
+    display: grid;
+    grid-template-columns: 63px 63px;
+    justify-content: center;
+    align-items: center;
+    grid-column-gap: 14px;
+    margin: 0 auto;
+    top: 208px;
+}
+td, th{
+    height: 52px;
+}
+
+th{
+    color: #A4A4A4;
+    font-weight:lighter;
+}
+td{
+    color: #494949;
+}
+button {
+    border-radius: 16px;
+    border: none;
+    width: 63px;
+    height: 40px;
+}
+#selecline{
+    position: absolute;
+    width: 1621px;
+    height: 0px;
+    left: 280px;
+    top: 1036px;
+    border: 1px solid #E8E8E8;
+}
+
+#reservation{
+    position: absolute;
+    width: 120px;
+    height: 39px;
+    left: 329px;
+    top: 1122px;
+    font-size: 24px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #494949;
+}
+
+#reservation2{
+    position: absolute;
+    width: 120px;
+    height: 39px;
+    left: 629px;
+    top: 1122px;
+    font-size: 24px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #494949;
+}
