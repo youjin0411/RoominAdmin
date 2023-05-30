@@ -9,12 +9,12 @@
     font-family: 'GmarketSansMedium';
 }
 
-body{
+body {
     height: 100%;
     background-color: #FBFBFB;
 }
 
-#logo{
+#logo {
     position: absolute;
     width: 167.14px;
     height: 31px;
@@ -23,25 +23,26 @@ body{
     background-image: url('../이미지/roomin.png');
     background-size: cover;
 }
-#nav{
+
+#nav {
     position: absolute;
     width: 280px;
     height: 1070px;
     left: 0px;
     top: 0px;
-
     /* g1 */
-
     background: #FBFBFB;
     border: solid 1px #E8E8E8;
     position: fixed;
 }
-#nav-con{
+
+#nav-con {
     position: absolute;
     left: 20px;
     top: 162px;
 }
-.box{
+
+.box {
     width: 220px;
     height: 72px;
     font-size: 16px;
@@ -53,53 +54,59 @@ body{
     padding-left: 20px;
 }
 
-#nav1{
+#nav1 {
     background-color: #FBECEE;
 }
-#nav3{
+
+#nav3 {
     margin-bottom: 520px;
 }
 
-#icon1{
+#icon1 {
     width: 22px;
     height: 22px;
     background-image: url('../이미지/icon1.png');
     background-size: cover;
 }
-#icon2{
+
+#icon2 {
     width: 22px;
     height: 22px;
     background-image: url('../이미지/icon2.png');
     background-size: cover;
 }
-#icon3{
+
+#icon3 {
     width: 22px;
     height: 22px;
     background-image: url('../이미지/icon3.png');
     background-size: cover;
 }
-#icon4{
+
+#icon4 {
     width: 22px;
     height: 22px;
     background-image: url('../이미지/logout.png');
     background-size: cover;
 }
-#icon5{
+
+#icon5 {
     width: 22px;
     height: 22px;
     background-image: url('../이미지/setting.png');
     background-size: cover;
 }
-.img{
+
+.img {
     margin-left: 10px;
     margin-right: 15px;
 }
 
-#group{
+#group {
     text-align: center;
 }
 
-.gridgroup{
+.gridgroup {
     position: absolute;
     width: 335px;
     height: 48px;
@@ -113,24 +120,25 @@ body{
     align-items: center;
 }
 
-.chat{
+.chat {
     background-color: #F4F4F4;
     border-radius: 16px;
     padding: 12px 12px 12px 12px;
     color: #D1D1D1;
 }
-.chat:hover{
+
+.chat:hover {
     background-color: #FF617D;
     color: #FBFBFB;
 }
 
-#mt{
+#mt {
     font-size: 24px;
     font-weight: bold;
     color: #494949;
 }
 
-#hotelname{
+#hotelname {
     position: absolute;
     width: 223px;
     height: 18px;
@@ -140,18 +148,14 @@ body{
     font-weight: 400;
     font-size: 18px;
     line-height: 18px;
-
     display: flex;
     align-items: center;
     text-align: center;
-    
     /* Gray7 */
-    
     color: #494949;
-    
 }
 
-#hotelimg{
+#hotelimg {
     background-size: cover;
     position: absolute;
     width: 68px;
@@ -162,38 +166,36 @@ body{
     border-radius: 400px;
 }
 
-#g1{
+#g1 {
     position: absolute;
     width: 937px;
     height: 878px;
     left: 330px;
     top: 119px;
-
     background: #FFFFFF;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.05);
     border-radius: 24px;
 }
 
-#g2{
+#g2 {
     position: absolute;
     width: 564px;
     height: 878px;
     left: 1306px;
     top: 118px;
-
     background: #FFFFFF;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.05);
     border-radius: 24px;
 }
 
-#first{
+#first {
     padding: 60px 20px 20px 60px;
     display: grid;
     grid-template-columns: 142px 400px 70px;
     grid-column-gap: 75px;
 }
 
-#search{
+#search {
     width: 100%;
     padding: 10px 12px;
     border-radius: 16px;
@@ -202,6 +204,7 @@ body{
     text-indent: 10px;
     font-size: 16px;
 }
+
 #search:focus {
     border: 1px solid #e8e8e8;
     outline: none;
@@ -209,6 +212,7 @@ body{
     justify-content: left;
     align-items: center;
 }
+
 .search {
     position: relative;
 }
@@ -219,23 +223,23 @@ img {
     top: 73px;
     right: 297px;
     margin: 0;
-  }
+}
 
-  #select{
+#select {
     background-color: #ffffff;
     border: none;
     border-radius: 0;
     font-size: 16px;
-  }
+}
 
-  #select2{
+#select2 {
     background-color: #FBFBFB;
     border: none;
     border-radius: 0;
     position: absolute;
     width: 76px;
     height: 26px;
-    left: 1267px;
+    left: 1230px;
     top: 1132px;
     font-weight: 400;
     font-size: 16px;
@@ -243,25 +247,26 @@ img {
     display: flex;
     align-items: center;
     color: #494949;
-  }
+}
 
-  select:focus {
+select:focus {
     outline: none;
-  }
-  
+}
 
-  table {
+table {
     margin: 0 auto;
     width: 95%;
     border: 1px solid #444444;
     border-collapse: collapse;
     margin-top: 20px
-  }
-  th, td {
-    border: 1px solid #444444;
-  }
+}
 
-  #back{
+th,
+td {
+    border: 1px solid #444444;
+}
+
+#back {
     text-align: center;
     display: flex;
     flex-direction: row;
@@ -278,13 +283,13 @@ img {
     background: #5362CA;
     border-radius: 16px;
     color: #FBFBFB;
-  }
+}
 
-  #table2{
+#table2 {
     margin-top: 33px;
-  }
+}
 
-#btng{
+#btng {
     position: absolute;
     width: 166px;
     display: grid;
@@ -295,24 +300,29 @@ img {
     margin: 0 auto;
     top: 208px;
 }
-td, th{
+
+td,
+th {
     height: 52px;
 }
 
-th{
+th {
     color: #A4A4A4;
-    font-weight:lighter;
+    font-weight: lighter;
 }
-td{
+
+td {
     color: #494949;
 }
+
 button {
     border-radius: 16px;
     border: none;
     width: 63px;
     height: 40px;
 }
-#selecline{
+
+#selecline {
     position: absolute;
     width: 1621px;
     height: 0px;
@@ -321,7 +331,7 @@ button {
     border: 1px solid #E8E8E8;
 }
 
-#reservation{
+#reservation {
     position: absolute;
     width: 120px;
     height: 39px;
@@ -335,11 +345,11 @@ button {
     color: #494949;
 }
 
-#reservation2{
+#reservation2 {
     position: absolute;
     width: 120px;
     height: 39px;
-    left: 629px;
+    left: 1436px;
     top: 1122px;
     font-size: 24px;
     line-height: 39px;
@@ -347,4 +357,84 @@ button {
     align-items: center;
     font-weight: bold;
     color: #494949;
+}
+
+#enlargement {
+    background-image: url('../이미지/enlargement.png');
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 1340px;
+    top: 1127px;
+    background-size: cover;
+}
+
+#text {
+    position: absolute;
+    width: 74px;
+    height: 24px;
+    left: 1772px;
+    top: 1128px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    background-color: #FBFBFB;
+}
+
+#grid3 {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    position: absolute;
+    width: 1082px;
+    height: 618px;
+    left: 301px;
+    top: 1177px;
+    justify-content: center;
+    grid-column-gap: 10px;
+    padding-top: 15px;
+}
+
+.rec {
+    width: 320px;
+    height: 284px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 24px;
+}
+
+#grid4 {
+    position: absolute;
+    width: 453px;
+    height: 605px;
+    left: 1417px;
+    top: 1193px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.room {
+    width: 225px;
+    height: 201px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.05);
+    margin: 0 auto;
+}
+
+#r {
+    border-top-left-radius: 24px;
+}
+
+#r2 {
+    border-top-right-radius: 24px;
+}
+
+#r5 {
+    border-bottom-left-radius: 24px;
+}
+
+#r6 {
+    border-bottom-right-radius: 24px;
 }
