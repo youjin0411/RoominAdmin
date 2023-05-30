@@ -102,7 +102,7 @@ body{
     top: 40px;
     display: grid;
     grid-column-gap: 20px;
-    grid-template-columns: 75px 110px 110px;
+    grid-template-columns: 105px 110px 110px;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -113,6 +113,15 @@ body{
     border-radius: 16px;
     padding: 12px 12px 12px 12px;
     color: #D1D1D1;
+}
+.chat:hover{
+    background-color: #FF617D;
+    color: #FBFBFB;
+}
+
+#mt{
+    font-size: 24px;
+    font-weight: bold;
 }
 
 #hotelname{
@@ -145,6 +154,7 @@ body{
     left: 1809px;
     top: 39px;
     background-image: url('../이미지/back.png');
+    border-radius: 400px;
 }
 
 #g1{
@@ -174,5 +184,71 @@ body{
 #first{
     padding: 60px 20px 20px 60px;
     display: grid;
-    grid-template-columns: 123px 400px 60px;
+    grid-template-columns: 142px 400px 70px;
+    grid-column-gap: 75px;
 }
+
+#search{
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 16px;
+    background-color: #E8E8E8;
+    border: solid #e4e4e4 1px;
+    text-indent: 10px;
+    font-size: 16px;
+}
+#search:focus {
+    border: 1px solid #e8e8e8;
+    outline: none;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.search {
+    position: relative;
+}
+
+img {
+    position: absolute;
+    width: 18px;
+    top: 73px;
+    right: 297px;
+    margin: 0;
+  }
+
+  #select{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0;
+    font-size: 16px;
+  }
+
+  table {
+    margin: 0 auto;
+    width: 95%;
+    border: 1px solid #444444;
+    border-collapse: collapse;
+    margin-top: 20px
+  }
+  th, td {
+    border: 1px solid #444444;
+  }
+
+  #back{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    position: absolute;
+    width: 102px;
+    height: 48px;
+    left: 821px;
+    top: 812px;
+    justify-content: center;
+    align-items: center;
+    /* Secondary */
+    background: #5362CA;
+    border-radius: 16px;
+    color: #FBFBFB;
+  }

@@ -142,7 +142,7 @@ body {
 }
 
 .input1 {
-    color: #A4A4A4;
+    color: #494949;
     font-size: 20px;
     padding: 41px;
     font-family: 'GmarketSansMedium';
@@ -150,13 +150,26 @@ body {
     position: absolute;
     width: 508px;
     height: 80px;
-    background-color: #FBFBFB;
+    background-color: #e8e8e8;
     border: 1px solid #E8E8E8;
     border-radius: 16px;
 }
-
+.input1:focus {
+    border: 1px solid #e8e8e8;
+    outline: none;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.input2:focus {
+    border: 1px solid #e8e8e8;
+    outline: none;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
 .input2 {
-    color: #A4A4A4;
+    color: #494949;
     font-size: 20px;
     padding: 41px;
     font-family: 'GmarketSansMedium';
@@ -165,8 +178,8 @@ body {
     position: absolute;
     width: 508px;
     height: 80px;
-    background-color: #FBFBFB;
-    border: 1px solid #E8E8E8;
+    background-color: #e8e8e8;
+    border: 1px solid #e8e8e8;
     border-radius: 16px;
 }
 
@@ -186,7 +199,7 @@ body {
     grid-template-columns: 105px 37px 70px;
     width: 280px;
     height: 24px;
-    left: 1345px;
+    left: 1328px;
     top: 633px;
     font-size: 16px;
 }

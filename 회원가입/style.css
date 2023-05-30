@@ -79,7 +79,8 @@ body {
 }
 
 #pac-input {
-    background-color: #FBFBFB;
+    font-size: 16px;
+    background-color: #e8e8e8;
     box-sizing: border-box;
     position: absolute;
     width: 649px;
@@ -92,7 +93,7 @@ body {
 }
 
 #pac-input:focus {
-    border: 1px solid #F4F4F4;
+    border: 1px solid #e8e8e8;
     outline: none;
     display: flex;
     justify-content: left;

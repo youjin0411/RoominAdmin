@@ -49,17 +49,49 @@
     <div id="group">
         <div id="g1">
             <div id="first">
-                <div>예약자 정보</div>
-                <input type="search">
-                <select>
+                <div id="mt">예약자 정보</div>
+                <div>
+                    <input type="search" id="search" placeholder="검색하기">
+                    <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png">
+                </div>
+                <select id="select">
                     <option value="">최신순</option>
                     <option value="">오래된 순</option>
                     <option value="">이름순</option>
                 </select>
             </div>
+            <table>
+                <thead>
+                  <tr>
+                    <th>날짜/시간</th><th>성명</th><th>생년월일</th><th>여권번호</th><th>여권요청상태</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>2023.05.23 11:46:12</td><td>Lee ruda</td><td>2000.01.01</td><th>M12345678</th><th>승인대기</th>
+                  </tr>
+                </tbody>
+              </table>
+              <div id="back">처음으로</div>
         </div>
 
-        <div id="g2"></div>
+        <div id="g2">
+            <div id="first">
+                <div id="mt">여권등록요청</div>
+            </div>
+            <table>
+                <thead>
+                  <tr>
+                    <th>성명</th><th>여권번호</th><th>여권요청</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>김땡땡</td><td>M12345678</td><td><button>승인</button><button>거절  </button></td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
     </div>
 </body>
 

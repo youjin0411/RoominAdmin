@@ -30,7 +30,12 @@ function initAutocomplete() {
         localStorage.setItem("address", formatted_address);
         localStorage.setItem("name", name);
         const btn = document.getElementById("searchadress");
-        modal.style.display = "none";
+        const input = document.getElementById("pac-input");
+        if(input.value.length != 0) {
+            window.location.href = "/회원가입/html/step2.html";
+            modal.style.display = "none";
+        }
+        else alert("주소를 입력하시오.")
     };
 
     // 버튼이 로드될 때까지 대기한 다음 클릭 이벤트를 추가합니다.

@@ -87,7 +87,7 @@
     height: 80px;
     left: 1196px;
     top: 731px;
-    background-color: #A4A4A4;
+    background-color: #494949;
     border-radius: 16px;
     font-size: 20px;
     color: #FBFBFB;
@@ -189,6 +189,7 @@
     grid-template-columns: 55px 220px;
     margin-top: 180px;
     margin-left: 75px;
+    grid-row-gap: 18px;
 }
 
 .box1 {
@@ -211,6 +212,7 @@
 }
 
 #searchadress {
+    font-size: 16px;
     color: #FBFBFB;
     flex-direction: row;
     align-items: flex-start;
@@ -228,6 +230,7 @@
 }
 
 #searchadress2 {
+    font-size: 16px;
     color: #FBFBFB;
     flex-direction: row;
     align-items: flex-start;
