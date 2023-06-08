@@ -23,6 +23,14 @@ th {
     font-family: 'GmarketSansMedium';
 }
 
+option {
+    font-size: 16px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0;
+    font-size: 16px;
+}
+
 body {
     height: 100%;
     background-color: #FBFBFB;
