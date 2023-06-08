@@ -24,14 +24,15 @@
 #grid5 {
     display: grid;
     text-align: center;
+    justify-content: center;
     width: 732px;
-    grid-template-columns: 455px 114px 114px;
+    grid-template-columns: 455px 2px 114px 2px 100px;
 }
 
 #grid6 {
     text-align: center;
     display: grid;
-    grid-template-columns: 190px 130px 162px;
+    grid-template-columns: 190px 145px 162px;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
@@ -46,6 +47,45 @@
 
 table {
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #E8E8E8;
+}
+th,
+td {
+    border: 2px solid #E8E8E8;
+}
+
+#gridtable{
+    display: grid;
+    grid-template-columns: 115px 30px;
+    grid-column-gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
+#port{
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#portimg{
+    background-image: url('../../이미지/camera.png');
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+}
+.updown {
+    border: 1px solid #E8E8E8;
+    width: 0.1px;
+    height: 50px;
+}
+
+.t{
+    display: flex;
     justify-content: center;
     align-items: center;
 }

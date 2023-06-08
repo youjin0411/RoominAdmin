@@ -6,32 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roomin</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="chek.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css/chek.css">
 </head>
 
 <body>
     <div id="nav">
         <div id="logo"></div>
         <div id="nav-con">
-            <div class="box" id="nav1">
+            <div class="box" onclick="window.location.href = '../main.html'">
                 <div id="icon1" class="img"></div>
                 <div>예약자 정보</div>
             </div>
-            <div class="box" id="nav2">
+            <div class="box" id="nav1" onclick="window.location.href = './chek.html'">
                 <div id="icon2" class="img"></div>
                 <div>체크인/체크아웃</div>
             </div>
-            <div class="box" id="nav3">
+            <div class="box" id="nav3" onclick="window.location.href = './service.html'">
                 <div id="icon3" class="img"></div>
                 <div>유/무료 서비스</div>
             </div>
-
-            <div class="box" id="nav4">
+            <div class="box" id="nav4" onclick="window.location.href = './logout.html'">
                 <div id="icon4" class="img"></div>
                 <div>로그아웃</div>
             </div>
-            <div class="box" id="nav5">
+            <div class="box" id="nav5" onclick="window.location.href = './set.html'">
                 <div id="icon5" class="img"></div>
                 <div>설정</div>
             </div>
@@ -58,7 +57,7 @@
                 <tr>
                     <th>체크인완료시간</th>
                     <th>성명</th>
-                    <th>생년월일</th>
+                    <th>전화번호</th>
                     <th>여권번호</th>
                     <th>예약내용</th>
                 </tr>
@@ -67,8 +66,13 @@
                 <tr>
                     <td>2023.05.23 11:46:12</td>
                     <td>Lee ruda</td>
-                    <td>2000.01.01</td>
-                    <td>M12345678</td>
+                    <td>010-1234-5678</td>
+                    <td>
+                        <div id="gridtable">
+                            <div id="port">M12345678</div>
+                            <div id="portimg"></div>
+                        </div>
+                    </td>
                     <td style="width: 732px;">
                         <div id="grid5">
                             <div id="grid6">
@@ -76,8 +80,10 @@
                                 <div>더블베드룸(2인)</div>
                                 <button id="detail">자세히보기</button>
                             </div>
-                            <div>체크인대기중</div>
-                            <div>체크아웃</div>
+                            <div class="updown"></div>
+                            <div class="t">체크인대기중</div>
+                            <div class="updown"></div>
+                            <div class="t">체크아웃</div>
                         </div>
                     </td>
                 </tr>
