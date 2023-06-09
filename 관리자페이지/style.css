@@ -341,7 +341,15 @@ td {
     padding: 6px 10px 4px;
     gap: 10px;
     width: 77px;
-    height: 33px;
+    height: 25px;
+}
+.counts{
+    color: #494949;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 td,
@@ -467,7 +475,60 @@ button {
     place-items: center;
     align-items: center;
     grid-row-gap: 8px;
-    grid-template-rows: 24px 68px 33px;
+    grid-template-rows: 82px 12px 80px;
+}
+
+.person{
+    background-image: url(../이미지/person.png);
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin-top: 14px;
+}
+
+.ggg{
+    display: grid;
+    grid-template-columns: 31px 230px;
+    grid-template-rows: 24px;
+    grid-column-gap: 16px;
+}
+.data{
+    color: #A4A4A4;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.checktime {
+    display: flex;
+    position: absolute;
+    width: 82px;
+    height: 23px;
+    left: 229px;
+    padding: 8px 12px 8px 12px;
+    top: 34px;
+    background: rgba(255, 97, 125, 0.1);
+    border-radius: 16px;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FF617D;
+}
+
+.g{
+    display: grid;
+    justify-content: center;
+    margin-top: 63px;
+}
+
+.gg1{
+    margin-top: 3px;
+    color: #494949;
+}
+.gg2{
+    color: #777777;
 }
 
 #badtext{
@@ -479,11 +540,49 @@ button {
     height: 24px;
     display: flex;
     align-items: center;
-
     /* g7 */
 
     color: #494949;
 }
+.badroom{
+    position: absolute;
+    width: 97px;
+    height: 24px;
+    left: 73px;
+    top: 68px;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: #494949;
+    }
+.sorting{
+    width: 236px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 11px;
+    display: grid;
+    grid-template-columns: 29px 74px 120px;
+    grid-column-gap: 2px;
+}
+
+.persontext{
+    display: flex;
+    align-items: center;
+    float: left;
+    /* g1 */
+    font-size: 18px;
+    color: #FBFBFB;
+}
+.backblack{
+    background-color: #494949;
+    border-radius: 0px 0px 24px 24px;
+    position: absolute;
+    width: 320px;
+    height: 80px;
+    top: 223px;
+}
+
 #r {
     border-top-left-radius: 24px;
 }
