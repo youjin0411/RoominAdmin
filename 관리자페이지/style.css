@@ -4,6 +4,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 table {
     text-align: center;
     justify-content: center;
@@ -16,19 +17,19 @@ th {
     justify-content: center;
     align-items: center;
     border: 2px solid #E8E8E8;
+    font-size: 1vw;
 }
-
 
 * {
     font-family: 'GmarketSansMedium';
+    font-size: 1vw;
 }
 
 option {
-    font-size: 16px;
     background-color: #ffffff;
     border: none;
     border-radius: 0;
-    font-size: 16px;
+    font-size: 1vw;
 }
 
 body {
@@ -38,21 +39,19 @@ body {
 
 #logo {
     position: absolute;
-    width: 167.14px;
-    height: 31px;
-    left: 50px;
-    top: 50px;
+    width: 9vw;
+    height: 1.7vw;
+    left: 20%;
+    top: 5%;
     background-image: url('../이미지/roomin.png');
     background-size: cover;
 }
 
 #nav {
-    position: absolute;
-    width: 280px;
-    height: 1070px;
+    width: 17vw;
+    height: 100%;
     left: 0px;
     top: 0px;
-    /* g1 */
     background: #FBFBFB;
     border: solid 1px #E8E8E8;
     position: fixed;
@@ -60,22 +59,24 @@ body {
 
 #nav-con {
     position: absolute;
-    left: 20px;
-    top: 162px;
+    left: 12%;
+    top: 17%;
+    display: grid;
+    grid-row-gap: 0.5vw;
 }
 
 .box {
-    width: 220px;
-    height: 72px;
-    font-size: 16px;
-    background: #FBFBFB;
-    border-radius: 16px;
+    width: 12.5vw;
+    height: 3.5vw;
+    font-size: 1vw;
+    background: rgb(251, 251, 251);
+    border-radius: 1vw;
     display: flex;
-    justify-content: left;
     align-items: center;
-    padding-left: 20px;
+    padding-left: 1vw;
 }
-.box:hover{
+
+.box:hover {
     background-color: #FBECEE;
 }
 
@@ -88,38 +89,51 @@ body {
 }
 
 #icon1 {
-    width: 22px;
-    height: 22px;
+    width: 1.3vw;
+    height: 1.3vw;
     background-image: url('../이미지/icon1.png');
     background-size: cover;
 }
 
 #icon2 {
-    width: 22px;
-    height: 22px;
+    width: 1.3vw;
+    height: 1.3vw;
     background-image: url('../이미지/icon2.png');
     background-size: cover;
 }
 
 #icon3 {
-    width: 22px;
-    height: 22px;
+    width: 1.3vw;
+    height: 1.3vw;
     background-image: url('../이미지/icon3.png');
     background-size: cover;
 }
 
 #icon4 {
-    width: 22px;
-    height: 22px;
+    width: 1.3vw;
+    height: 1.3vw;
     background-image: url('../이미지/logout.png');
     background-size: cover;
 }
 
 #icon5 {
-    width: 22px;
-    height: 22px;
+    width: 1.3vw;
+    height: 1.3vw;
     background-image: url('../이미지/setting.png');
     background-size: cover;
+}
+
+#maingrid {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 60% 35%;
+    float: right;
+    position: absolute;
+    top: 0;
+    grid-column-gap: 2%;
+    right: 0;
+    left: 20vw;
 }
 
 .img {
@@ -132,24 +146,20 @@ body {
 }
 
 .gridgroup {
-    position: absolute;
-    width: 335px;
-    height: 48px;
-    left: 340px;
-    top: 40px;
+    width: 17.5%;
     display: grid;
-    grid-column-gap: 20px;
-    grid-template-columns: 105px 110px 110px;
+    grid-column-gap: 0.8vw;
+    grid-template-columns: 6vw 7vw 7vw;
     text-align: center;
-    justify-content: center;
-    align-items: center;
+    margin-top: 2.5vw;
 }
 
 .chat {
     background-color: #F4F4F4;
-    border-radius: 16px;
+    border-radius: 1vw;
     padding: 12px 12px 12px 12px;
     color: #D1D1D1;
+    font-size: 1.2vw;
 }
 
 .chat:hover {
@@ -158,76 +168,75 @@ body {
 }
 
 #mt {
-    font-size: 24px;
+    font-size: 1.2vw;
     font-weight: bold;
     color: #494949;
 }
 
+#mts {
+    width: 171%;
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: #494949;
+    margin-top: 36%;
+}
+
 #hotelname {
-    position: absolute;
-    width: 223px;
-    height: 18px;
-    left: 1581px;
-    top: 56px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 18px;
+    font-size: 1.2vw;
     display: flex;
     align-items: center;
-    text-align: center;
-    /* Gray7 */
+    justify-content: center;
     color: #494949;
+}
+
+#hotels {
+    display: flex;
+    float: right;
+    column-gap: 1vw;
+    margin-top: 3vw;
 }
 
 #hotelimg {
     background-size: cover;
-    position: absolute;
     width: 68px;
     height: 51px;
-    left: 1809px;
-    top: 39px;
     background-image: url('../이미지/back.png');
     border-radius: 400px;
 }
 
 #g1 {
-    position: absolute;
-    width: 937px;
-    height: 878px;
-    left: 330px;
-    top: 119px;
+    width: 100%;
+    height: 95%;
     background: #FFFFFF;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.05);
-    border-radius: 24px;
+    border-radius: 1.2vw;
+    margin-top: 1.5vw;
 }
 
 #g2 {
-    position: absolute;
-    width: 564px;
-    height: 878px;
-    left: 1306px;
-    top: 118px;
+    width: 100%;
+    height: 95%;
     background: #FFFFFF;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.05);
-    border-radius: 24px;
+    border-radius: 1.2vw;
+    margin-top: 6.8vw;
 }
 
 #first {
-    padding: 60px 20px 20px 60px;
+    padding: 6% 2% 2% 6%;
     display: grid;
-    grid-template-columns: 142px 400px 70px;
-    grid-column-gap: 75px;
+    grid-template-columns: 16% 47% 11%;
+    grid-column-gap: 8.5%;
 }
 
 #search {
     width: 100%;
-    padding: 10px 12px;
-    border-radius: 16px;
+    padding: 2.6% 4%;
+    border-radius: 1vw;
     background-color: #E8E8E8;
     border: solid #e4e4e4 1px;
-    text-indent: 10px;
-    font-size: 16px;
+    text-indent: 0.7vw;
+    font-size: 1vw;
 }
 
 #search:focus {
@@ -244,31 +253,26 @@ body {
 
 img {
     position: absolute;
-    width: 18px;
-    top: 73px;
-    right: 297px;
-    margin: 0;
+    width: 1.05vw;
+    top: 10.8vw;
+    right: 43vw;
 }
 
 #select {
     background-color: #ffffff;
     border: none;
     border-radius: 0;
-    font-size: 16px;
+    font-size: 1vw;
 }
 
 #select2 {
     background-color: #FBFBFB;
     border: none;
     border-radius: 0;
-    position: absolute;
-    width: 76px;
-    height: 26px;
-    left: 1230px;
-    top: 1132px;
+    width: 5vw;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 1vw;
+    line-height: 1.4vw;
     display: flex;
     align-items: center;
     color: #494949;
@@ -283,7 +287,7 @@ table {
     width: 95%;
     border: 1px solid #444444;
     border-collapse: collapse;
-    margin-top: 20px;
+    margin-top: 1.55vw;
 }
 
 th,
@@ -294,56 +298,50 @@ td {
 #back {
     text-align: center;
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 10px;
-    position: absolute;
-    width: 102px;
-    height: 48px;
-    left: 821px;
-    top: 812px;
+    width: 10.5%;
+    height: 5%;
     justify-content: center;
     align-items: center;
-    /* Secondary */
     background: #5362CA;
-    border-radius: 16px;
+    border-radius: 1vw;
     color: #FBFBFB;
+    font-size: 1vw;
+    float: right;
+    margin-top: 34vw;
+    margin-right: 2vw;
 }
 
 #table2 {
-    margin-top: 33px;
+    margin-top: 8.6%;
 }
 
 #btng {
-    position: absolute;
-    width: 166px;
     display: grid;
-    grid-template-columns: 63px 63px;
+    grid-template-columns: 5vw 5vw;
+    grid-column-gap: 0.5vw;
     justify-content: center;
-    align-items: center;
-    grid-column-gap: 14px;
-    margin: 0 auto;
-    top: 208px;
 }
 
-#bad{
+#bad {
     background-image: url('../이미지/bad.png');
-    width: 68px;
-    height: 68px;
+    width: 4vw;
+    height: 4vw;
     background-size: cover;
 }
-#count{
-    background-color:  #F4F4F4;
-    border-radius: 16px;
+
+#count {
+    background-color: #F4F4F4;
+    border-radius: 1vw;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 6px 10px 4px;
-    gap: 10px;
-    width: 77px;
-    height: 25px;
+    padding: 0.3vw 0.2vw 0.2vw;
+    gap: 0.8vw;
+    width: 4.9vw;
+    height: 1.8vw;
 }
-.counts{
+
+.counts {
     color: #494949;
     font-weight: 500;
     display: flex;
@@ -354,7 +352,7 @@ td {
 
 td,
 th {
-    height: 52px;
+    height: 2.75vw;
 }
 
 th {
@@ -364,32 +362,41 @@ th {
 
 td {
     color: #494949;
+    font-size: 0.9vw;
 }
 
 button {
-    border-radius: 16px;
+    border-radius: 1vw;
     border: none;
-    width: 63px;
-    height: 40px;
+    width: 4.5vw;
+    height: 2.5vw;
+    font-size: 1vw;
+    color: white;
 }
 
 #selecline {
-    position: absolute;
-    width: 1621px;
-    height: 0px;
-    left: 280px;
-    top: 1036px;
-    border: 1px solid #E8E8E8;
+    width: 102.8%;
+    margin-top: 66vw;
+    margin-left: 17vw;
+    border: 0.1vw solid #E8E8E8;
+}
+
+#resevrer1 {
+    display: grid;
+    grid-template-columns: 6vw 44vw 5vw 5vw;
+    column-gap: 1vw;
+}
+
+#reserver1 {
+    display: grid;
+    grid-template-columns: 7vw 40vw 5vw 5vw;
 }
 
 #reservation {
-    position: absolute;
-    width: 120px;
-    height: 39px;
-    left: 329px;
-    top: 1122px;
-    font-size: 24px;
-    line-height: 39px;
+    width: 9vw;
+    height: 2.4vw;
+    font-size: 1.5vw;
+    line-height: 2.3vw;
     display: flex;
     align-items: center;
     font-weight: bold;
@@ -397,13 +404,8 @@ button {
 }
 
 #reservation2 {
-    position: absolute;
-    width: 120px;
-    height: 39px;
-    left: 1436px;
-    top: 1122px;
-    font-size: 24px;
-    line-height: 39px;
+    font-size: 1.5vw;
+    line-height: 2.4vw;
     display: flex;
     align-items: center;
     font-weight: bold;
@@ -412,189 +414,195 @@ button {
 
 #enlargement {
     background-image: url('../이미지/enlargement.png');
-    position: absolute;
-    width: 32px;
-    height: 32px;
-    left: 1340px;
-    top: 1127px;
+    width: 2vw;
+    height: 2vw;
     background-size: cover;
 }
 
-#text {
+#gridgrid {
+    width: 100vw;
+    height: 68vh;
+    display: grid;
+    grid-template-columns: 60% 35%;
+    float: right;
     position: absolute;
-    width: 74px;
-    height: 24px;
-    left: 1772px;
-    top: 1128px;
+    top: 70vw;
+    grid-column-gap: 4%;
+    right: 0;
+    left: 20vw;
+}
+
+#text {
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1vw;
+    line-height: 1.5vw;
     display: flex;
     align-items: center;
     background-color: #FBFBFB;
 }
 
+#resevrer2 {
+    display: grid;
+    grid-template-columns: 7vw 7vw;
+    column-gap: 20vw;
+}
+
 #grid3 {
     display: grid;
     grid-template-columns: 30% 30% 30%;
-    position: absolute;
-    width: 1082px;
-    height: 618px;
-    left: 301px;
-    top: 1177px;
+    width: 100%;
+    height: 100%;
     justify-content: center;
     grid-column-gap: 10px;
-    padding-top: 15px;
+    padding-top: 0.9vw;
+    margin-top: 1vw;
+    margin-left: -3vw;
 }
 
 .rec {
-    width: 320px;
-    height: 284px;
+    width: 20vw;
+    height: 18vw;
     background: #FFFFFF;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.05);
-    border-radius: 24px;
+    box-shadow: 0px 0.2vw 0.9vw rgba(0, 0, 0, 0.05);
+    border-radius: 1.8vw;
 }
 
 #grid4 {
-    position: absolute;
-    width: 453px;
-    height: 605px;
-    left: 1417px;
-    top: 1193px;
+    width: 31vw;
+    height: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
 }
 
 .room {
-    width: 225px;
-    height: 201px;
+    width: 15.5vw;
+    height: 12.4vw;
     background: #FFFFFF;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.05);
     display: grid;
     place-items: center;
     align-items: center;
-    grid-row-gap: 8px;
-    grid-template-rows: 82px 12px 80px;
+    grid-row-gap: 0.5vw;
+    grid-template-rows: 5.2vw 0.8vw 6vw;
 }
 
-.person{
-    background-image: url(../이미지/person.png);
+.person {
+    background-image: url('../이미지/person.png');
     background-size: cover;
-    width: 24px;
-    height: 24px;
+    width: 1.6vw;
+    height: 2vw;
     float: left;
-    margin-top: 14px;
+    margin-top: 0.8vw;
 }
 
-.ggg{
+.ggg {
     display: grid;
-    grid-template-columns: 31px 230px;
-    grid-template-rows: 24px;
-    grid-column-gap: 16px;
+    grid-template-columns: 2vw 14vw;
+    grid-template-rows: 1.5vw;
+    grid-column-gap: 1vw;
 }
-.data{
+
+.data {
+    display: flex;
+    width: 6vw;
     color: #A4A4A4;
-    font-size: 16px;
-    margin-top: 20px;
-    margin-left: 30px;
+    font-size: 1vw;
+    margin-top: 2vw;
+    margin-left: 1.9vw;
 }
+
 .checktime {
     display: flex;
-    position: absolute;
-    width: 82px;
-    height: 23px;
-    left: 229px;
-    padding: 8px 12px 8px 12px;
-    top: 34px;
+    width: 5.2vw;
+    height: 1.6vw;
+    padding: 0.5vw 0.7vw 0.5vw 0.7vw;
     background: rgba(255, 97, 125, 0.1);
-    border-radius: 16px;
-    /* text-align: center; */
     justify-content: center;
     align-items: center;
-    font-size: 14px;
+    font-size: 0.8vw;
     font-weight: bold;
     color: #FF617D;
+    border-radius: 1vw;
+    margin-top: -2vw;
+    margin-left: 12vw;
 }
 
-.g{
+.g {
     display: grid;
     justify-content: center;
-    margin-top: 63px;
+    margin-top: 2vw;
 }
 
-.gg1{
+.gg1 {
     margin-top: 3px;
     color: #494949;
 }
-.gg2{
+
+.gg2 {
     color: #777777;
 }
 
-#badtext{
+#badtext {
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-    width: 87px;
-    height: 24px;
+    font-size: 1.2vw;
+    line-height: 1.4vw;
+    width: 6vw;
+    height: 1.5vw;
     display: flex;
     align-items: center;
-    /* g7 */
-
     color: #494949;
 }
-.badroom{
-    position: absolute;
-    width: 97px;
-    height: 24px;
-    left: 73px;
-    top: 68px;
+
+.badroom {
+    margin-left: 1.9vw;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.4vw;
     display: flex;
     align-items: center;
     color: #494949;
-    }
-.sorting{
-    width: 236px;
-    height: 50px;
-    margin: 0 auto;
-    margin-top: 11px;
-    display: grid;
-    grid-template-columns: 29px 74px 120px;
-    grid-column-gap: 2px;
 }
 
-.persontext{
+.sorting {
+    width: 14.5vw;
+    height: 3.4vw;
+    margin: 0 auto;
+    margin-top: 2vw;
+    display: grid;
+    grid-template-columns: 2.8vw 4.9vw 7.5vw;
+    grid-column-gap: 0.2vw;
+}
+
+.persontext {
     display: flex;
     align-items: center;
     float: left;
     /* g1 */
-    font-size: 18px;
+    font-size: 1.2vw;
     color: #FBFBFB;
 }
-.backblack{
+
+.backblack {
     background-color: #494949;
-    border-radius: 0px 0px 24px 24px;
-    position: absolute;
-    width: 320px;
-    height: 80px;
-    top: 223px;
+    border-radius: 0px 0px 1.4vw 1.4vw;
+    width: 100%;
+    height: 5vw;
+    margin-top: 2.2vw;
 }
 
 #r {
-    border-top-left-radius: 24px;
+    border-top-left-radius: 1.5vw;
 }
 
 #r2 {
-    border-top-right-radius: 24px;
+    border-top-right-radius: 1.5vw;
 }
 
 #r5 {
-    border-bottom-left-radius: 24px;
+    border-bottom-left-radius: 1.5vw;
 }
 
 #r6 {
-    border-bottom-right-radius: 24px;
+    border-bottom-right-radius: 1.5vw;
 }
