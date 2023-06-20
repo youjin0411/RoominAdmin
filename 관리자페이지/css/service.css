@@ -1,12 +1,28 @@
+a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #777777;
+}
+
 #g1 {
     position: absolute;
     width: 1540px;
     height: 870px;
     left: 350px;
     top: 129px;
-    background: #ffffff;
+    background: #FFFFFF;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.05);
     border-radius: 24px;
+}
+
+#g2 {
+    width: 30%;
+    height: 870px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 1.2vw;
+    margin-left: 103%;
+    margin-top: -260px;
 }
 
 #first2 {
@@ -14,6 +30,56 @@
     display: grid;
     grid-template-columns: 842px 360px 70px;
     grid-column-gap: 75px;
+}
+
+#first {
+    padding: 40px 20px 20px 60px;
+    display: grid;
+    grid-template-columns: 220px 360px 70px;
+    grid-column-gap: 75px;
+}
+
+#mts {
+    width: 90%;
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: #494949;
+    margin-top: 2%;
+}
+
+#mtss {
+    font-size: 16px;
+    border-radius: 0.5vw;
+    height: 34px;
+    margin-top: 2%;
+    width: 74px;
+}
+
+#backround {
+    display: grid;
+    justify-content: center;
+}
+
+#specifi {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 400px;
+    height: 80px;
+    background-color: #FBFBFB;
+    border: solid #F4F4F4 1.5px;
+    border-radius: 16px;
+}
+
+#specifi button {
+    margin-left: auto;
+    margin-right: 10px;
+    font-size: 15px;
+    width: 96px;
+    height: 41px;
+    border-radius: 15px;
+    background-color: #FFEAEE;
+    color: #FF617D;
 }
 
 #icons {
@@ -51,19 +117,21 @@ table {
     align-items: center;
     border: 2px solid #E8E8E8;
 }
+
 th,
 td {
     border: 2px solid #E8E8E8;
 }
 
-#gridtable{
+#gridtable {
     display: grid;
     grid-template-columns: 115px 30px;
     grid-column-gap: 12px;
     align-items: center;
     justify-content: center;
 }
-#port{
+
+#port {
     font-size: 16px;
     text-align: center;
     display: flex;
@@ -72,19 +140,20 @@ td {
 }
 
 
-#portimg{
+#portimg {
     background-image: url('../../이미지/camera.png');
     background-size: cover;
     width: 24px;
     height: 24px;
 }
+
 .updown {
     border: 1px solid #E8E8E8;
     width: 0.1px;
     height: 50px;
 }
 
-.t{
+.t {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -132,7 +201,7 @@ td {
     cursor: pointer;
 }
 
-#modalImg{
+#modalImg {
     background-image: url('../../이미지/modalimg.png');
     background-size: cover;
     width: 465px;
@@ -141,12 +210,12 @@ td {
     margin-right: -4px;
 }
 
-#tim{
+#tim {
     margin-top: 52px;
     margin-left: 52px;
 }
 
-.backblack2{
+.backblack2 {
     border-radius: 0px 0px 24px 24px;
     position: absolute;
     width: 320px;
@@ -154,6 +223,7 @@ td {
     top: 431px;
     left: 524px;
 }
+
 .persontext2 {
     display: flex;
     align-items: center;
@@ -162,7 +232,7 @@ td {
     color: #494949;
 }
 
-.person2{
+.person2 {
     background-image: url('../../이미지/person2.png');
     background-size: cover;
     width: 24px;
@@ -171,18 +241,11 @@ td {
     margin-top: 14px;
 }
 
-.g2{
-    display: grid;
-    /* justify-content: center; */
-    margin-top: 73px;
-    margin-left: 53px;
-}
-
 #nav3 {
     background-color: #FBECEE;
 }
 
-.badroom2{
+.badroom2 {
     position: absolute;
     width: 126px;
     height: 24px;
@@ -220,7 +283,7 @@ td {
     color: #FF617D;
 }
 
-.che1{
+.che1 {
     display: flex;
     padding: 8px 12px 6px;
     align-items: center;
@@ -230,13 +293,13 @@ td {
     width: 162px;
     height: 23px;
     left: 537px;
-    top: 498px; 
+    top: 498px;
     background: rgba(255, 97, 125, 0.1);
     justify-content: center;
     border-radius: 16px;
 }
 
-.cho1{
+.cho1 {
     display: flex;
     padding: 8px 12px 6px;
     position: absolute;
@@ -252,8 +315,9 @@ td {
     font-weight: bold;
 }
 
-.line{
+.line {
     margin-top: 294px;
-    border: 1px solid #E8E8E8;;
+    border: 1px solid #E8E8E8;
+    ;
     margin-left: -20px;
 }
