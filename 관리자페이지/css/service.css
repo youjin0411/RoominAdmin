@@ -9,10 +9,6 @@
     border-radius: 24px;
 }
 
-#nav1 {
-    background-color: #FBECEE;
-}
-
 #first2 {
     padding: 60px 20px 20px 60px;
     display: grid;
@@ -181,6 +177,11 @@ td {
     margin-top: 73px;
     margin-left: 53px;
 }
+
+#nav3 {
+    background-color: #FBECEE;
+}
+
 .badroom2{
     position: absolute;
     width: 126px;
