@@ -1,0 +1,320 @@
+a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #777777;
+}
+
+#g1 {
+    position: absolute;
+    width: 1540px;
+    height: 870px;
+    left: 350px;
+    top: 129px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 24px;
+}
+
+#g2 {
+    width: 30%;
+    height: 870px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 1.2vw;
+    margin-left: 103%;
+    margin-top: 160px;
+}
+
+#first2 {
+    padding: 60px 20px 20px 60px;
+    display: grid;
+    grid-template-columns: 842px 360px 70px;
+    grid-column-gap: 75px;
+}
+
+#first {
+    padding: 40px 20px 20px 60px;
+    display: grid;
+    grid-template-columns: 220px 360px 70px;
+    grid-column-gap: 75px;
+}
+
+#mts {
+    width: 90%;
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: #494949;
+    margin-top: 2%;
+}
+
+#mtss {
+    font-size: 16px;
+    border-radius: 0.5vw;
+    height: 34px;
+    margin-top: 2%;
+    width: 74px;
+}
+
+#specifi {
+    margin-left: 10%;
+    align-items: center;
+    width: 70%;
+    height: 80px;
+    background-color: #FBFBFB;
+    border-radius: 16px;
+}
+
+#specifi button {
+    margin-left: auto;
+    margin-right: 10px;
+    font-size: 15px;
+    width: 96px;
+    height: 41px;
+    border-radius: 15px;
+    background-color: #FFEAEE;
+    color: #FF617D;
+}
+
+#date {
+    color: #494949;
+}
+
+#icons {
+    position: absolute;
+    left: 1288px;
+}
+
+#grid5 {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    width: 732px;
+    grid-template-columns: 455px 2px 114px 2px 100px;
+}
+
+#grid6 {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 190px 145px 162px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#detail {
+    border-radius: 16px;
+    border: none;
+    width: 93px;
+    height: 40px;
+}
+
+table {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #E8E8E8;
+}
+
+th,
+td {
+    border: 2px solid #E8E8E8;
+}
+
+#gridtable {
+    display: grid;
+    grid-template-columns: 115px 30px;
+    grid-column-gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+#port {
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#portimg {
+    background-image: url('../../이미지/camera.png');
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+}
+
+.updown {
+    border: 1px solid #E8E8E8;
+    width: 0.1px;
+    height: 50px;
+}
+
+.t {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* 모달창 관련 CSS */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    border-radius: 16px;
+    border: 1px solid #888;
+    width: 900px;
+    height: 600px;
+    top: -20px;
+}
+
+.close {
+    position: absolute;
+    color: white;
+    float: right;
+    font-size: 38px;
+    font-weight: bold;
+    left: 1330px;
+    top: 205px;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#modalImg {
+    background-image: url('../../이미지/modalimg.png');
+    background-size: cover;
+    width: 465px;
+    height: 600px;
+    float: right;
+    margin-right: -4px;
+}
+
+#tim {
+    margin-top: 52px;
+    margin-left: 52px;
+}
+
+.backblack2 {
+    border-radius: 0px 0px 24px 24px;
+    position: absolute;
+    width: 320px;
+    height: 80px;
+    top: 431px;
+    left: 524px;
+}
+
+.persontext2 {
+    display: flex;
+    align-items: center;
+    float: left;
+    font-size: 18px;
+    color: #494949;
+}
+
+.person2 {
+    background-image: url('../../이미지/person2.png');
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin-top: 14px;
+}
+
+#nav3 {
+    background-color: #FBECEE;
+}
+
+.badroom2 {
+    position: absolute;
+    width: 126px;
+    height: 24px;
+    left: 544px;
+    top: 280px;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    color: #494949;
+}
+
+.sorting2 {
+    width: 236px;
+    height: 50px;
+    margin-left: 19px;
+    margin-top: -14px;
+    display: grid;
+    grid-template-columns: 29px 74px 120px;
+    grid-column-gap: 2px;
+}
+
+.checktime2 {
+    display: flex;
+    position: absolute;
+    width: 106px;
+    height: 23px;
+    left: 778px;
+    padding: 8px 12px 8px 12px;
+    top: 231px;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #FF617D;
+}
+
+.che1 {
+    display: flex;
+    padding: 8px 12px 6px;
+    align-items: center;
+    font-weight: bold;
+    color: #FF617D;
+    position: absolute;
+    width: 162px;
+    height: 23px;
+    left: 537px;
+    top: 498px;
+    background: rgba(255, 97, 125, 0.1);
+    justify-content: center;
+    border-radius: 16px;
+}
+
+.cho1 {
+    display: flex;
+    padding: 8px 12px 6px;
+    position: absolute;
+    width: 162px;
+    height: 23px;
+    left: 537px;
+    top: 553px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(83, 98, 202, 0.1);
+    border-radius: 16px;
+    color: #5362CA;
+    font-weight: bold;
+}
+
+.line {
+    margin-top: 294px;
+    border: 1px solid #E8E8E8;
+    ;
+    margin-left: -20px;
+}
